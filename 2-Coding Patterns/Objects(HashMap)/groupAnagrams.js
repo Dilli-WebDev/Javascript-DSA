@@ -13,7 +13,6 @@ const groupAnagrams = function (strs) {
   const hash = {};
   for (let i = 0; i < strs.length; i++) {
     const char = sortedStrs[i];
-
     // console.log(char);
     // console.log(strs[i]);
     if (!hash[char]) {
@@ -27,7 +26,7 @@ const groupAnagrams = function (strs) {
 };
 
 const arr = ["eat", "tea", "bat", "tan", "ate", "nat"];
-// console.log(groupAnagrams(arr));
+console.log(groupAnagrams(arr));
 const str1 = "Vishal is Best Frontend Developer. Vishal is Best Developer. ";
-console.log(str1.substring(6, 30));
+// console.log(str1.substring(6, 30));
 // console.log(str.slice(-10, -1));
