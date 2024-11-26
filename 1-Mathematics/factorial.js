@@ -44,4 +44,4 @@ function whileFactorial(n) {
   return fact;
 }
 
-console.log(whileFactorial(5));
+console.log(whileFactorial(25));
