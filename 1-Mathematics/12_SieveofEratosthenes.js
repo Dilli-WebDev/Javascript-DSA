@@ -14,4 +14,4 @@ function sieve(n) {
   console.log(arr);
 }
 
-sieve(13);
+sieve(100);

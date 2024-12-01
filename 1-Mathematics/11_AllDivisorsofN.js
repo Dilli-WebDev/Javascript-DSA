@@ -34,7 +34,7 @@ function allDivisors(n) {
   for (i = 1; i * i < n; i++) {
     if (n % i === 0) console.log(i);
   }
-  // Divisors from sqrt(n) to n
+  // Divisors from sqrt(n) to n  included
   for (; i >= 1; i--) {
     if (n % i === 0) console.log(n / i);
   }

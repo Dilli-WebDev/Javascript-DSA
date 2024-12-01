@@ -1,0 +1,17 @@
+function multiplicationUnderModulo(a, b) {
+  let sum = BigInt(a * b);
+  let M = BigInt(1000000007);
+  return sum % M;
+}
+
+console.log(multiplicationUnderModulo(92233720368547758, 92233720368547758));
+/* 
+a= 9223372036854775807
+b = 9223372036854775807
+Output: 582344006
+Explanation: 
+9223372036854775807 + 9223372036854775807 
+= 18446744073709551614.
+18446744073709551614 mod (109+7)
+= 582344006
+ */
