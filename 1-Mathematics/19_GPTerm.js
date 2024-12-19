@@ -11,7 +11,6 @@ Constraints:
 -100 <= A <= 100
 -100 <= B <= 100
 1 <= N <= 5 
- */
 
 function gpTerm(a, b, n) {
   if (n === 1) return a;
@@ -21,3 +20,14 @@ function gpTerm(a, b, n) {
 
 console.log(gpTerm(2, 3, 1));
 console.log(gpTerm(1, 2, 5));
+*/
+
+var keeps = [];
+
+for (var i = 0; i < 3; i++) {
+  keeps[i] = function keepsI() {
+    return i;
+  };
+}
+
+console.log(keeps[0]());
